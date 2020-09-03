@@ -1,14 +1,13 @@
 /* CSS designed by Nana Antwi */
 
-/* ===================  General Section  ==================================== */
+
 
 * {
     font-size: 12pt;  /* sets the font size for all elements. */
-    /* look up reset style sheet */
 }
 
 body {
-    background-color: #808080;
+    background-color: #557A95;
     background-image: url(redbg.gif);
     margin-left: 6em;
 }
@@ -83,41 +82,17 @@ ul li {
     list-style: disc;
 }
 
-/* ===================  Header Section  ==================================== */
-/* now i would have a section that corresponds to my html sections.          */
+/*Header Section */
+
 header {
     background-color: #dddddd;
-}
-
-/* ===================  Navigation Section  ================================= */
-
-
-
-
-/* ===================  Home Page        ==================================== */
-/* -------------------------------------------------------------------------- */
-#home {  
-    background-color: #aaaaaa;
-}
-
-#home p {
-    /* this rule will give all the paragraphs on the home page a first line  */
-    /* indent of 3 em. it only effects paragraphs that are contained inside  */
-    /* the element with the id of home, this replaces using an embeded or    */
-    /* level style */
-    text-indent: 3em;
-}
-
-/* ===================  General Class Section  ============================= */
-/* I can add any generic classes here. Technically i can place these rules   */
-/* anywhere in the style sheet. This just helps to organize everything.     */
-.firstLine {
-    text-indent: 3em;
-   
+    font-style: oblique;
 }
 
 
 
+
+/* center image */
 .center {
   display: block;
   margin-left: auto;
@@ -126,18 +101,17 @@ header {
 }
 
 
+/* make the link button */
  .button {
-        background-color: #1c87c9;
-        border: none;
-        color: white;
-        padding: 20px 34px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 4px 2px;
-        cursor: pointer;
-      }
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 
 
