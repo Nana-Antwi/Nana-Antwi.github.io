@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #557A95;
+   
     background-image: url(pexel.jpg);
   
 }
@@ -103,7 +103,7 @@ header {
 
 /* make the link button */
  .button {
-  background-color: #379683; /* Green */
+  background-color: #379683; 
   border: none;
   color: white;
   padding: 15px 32px;
