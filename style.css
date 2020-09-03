@@ -116,5 +116,18 @@ header {
    
 }
 
-table{border: 1 px solid black;
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
+
+
+
+
+
+
